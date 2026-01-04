@@ -1,0 +1,18 @@
+AWSTemplateFormatVersion: '2010-09-09'
+Transform: AWS::Serverless-2016-10-31
+
+Resources:
+  UserPreferenceFunction:
+    Type: AWS::Serverless::Function
+    Properties:
+      Runtime: java11
+      Handler: com.example.handler.UserPreferenceHandler
+      CodeUri: .
+      MemorySize: 512
+      Timeout: 10
+      Events:
+        CreatePreference:
+          Type: Api
+          Properties:
+            Path: /preferences
+            Method: post
