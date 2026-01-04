@@ -7,6 +7,12 @@ This project demonstrates how to design *cloud-native APIs* using a fully server
 
 ---
 
+## 📝 Blog Post
+
+I’ve written a detailed blog explaining the architecture and implementation of this project:
+
+👉 https://abhicloud.hashnode.dev/building-a-server-less-rest-api-using-aws-api-gateway-and-lambda-java-11 
+
 ## 🏗️ Architecture
 
 Client  
