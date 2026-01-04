@@ -5,7 +5,6 @@ A serverless REST API built using *Amazon API Gateway, **AWS Lambda (Java 11), a
 
 This project demonstrates how to design cloud-native APIs using a fully serverless architecture.
 
----
 
 ## 🏗️ Architecture
 
