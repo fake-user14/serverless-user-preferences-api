@@ -3,28 +3,38 @@
 ## 📌 Overview
 A serverless REST API built using *Amazon API Gateway, **AWS Lambda (Java 11), and **Amazon DynamoDB*.
 
-This project demonstrates how to design cloud-native APIs using a fully serverless architecture.
+This project demonstrates how to design *cloud-native APIs* using a fully serverless architecture and Infrastructure as Code (IaC).
 
+---
 
 ## 🏗️ Architecture
 
-```mermaid
-flowchart LR
-    A[Client] --> B[API Gateway]
-    B --> C[AWS Lambda Java]
-    C --> D[DynamoDB]
+Client  
+↓  
+Amazon API Gateway  
+↓  
+AWS Lambda (Java 11)  
+↓  
+Amazon DynamoDB  
 
+---
 
-##  Features
-    •	Serverless REST API
-	•	AWS Lambda (Java 11)
-	•	API Gateway HTTP integration
-	•	DynamoDB-ready architecture
-	•	AWS SAM template for IaC
+## 🚀 Features
+- Serverless REST API
+- AWS Lambda using Java 11
+- API Gateway HTTP integration
+- DynamoDB-ready data layer
+- AWS SAM template for Infrastructure as Code
+- Clean and minimal serverless design
 
-## Tech Stack
-	•	Java 11
-	•	AWS Lambda
-	•	API Gateway
-	•	DynamoDB
-	•	AWS SAM
+---
+
+## 🧩 Tech Stack
+- Java 11  
+- AWS Lambda  
+- Amazon API Gateway  
+- Amazon DynamoDB  
+- AWS SAM  
+- Maven
+
+---
