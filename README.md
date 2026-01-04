@@ -12,7 +12,7 @@ This project demonstrates how to design cloud-native APIs using a fully serverle
 ```mermaid
 flowchart LR
     A[Client] --> B[API Gateway]
-    B --> C[AWS Lambda (Java)]
+    B --> C[AWS Lambda Java]
     C --> D[DynamoDB]
 
 
